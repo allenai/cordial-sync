@@ -254,20 +254,20 @@ If you use this codebase, please consider citing [Cordial Sync](https://unnat.gi
 
 ```bibtex
 @InProceedings{JainWeihs2020CordialSync,
-author = {Jain$^\ast$, Unnat and Weihs$^\ast$, Luca and Kolve, Eric and Farhadi, Ali and Lazebnik, Svetlana and Kembhavi, Aniruddha and Schwing, Alexander G.},
+author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Farhadi, Ali and Lazebnik, Svetlana and Kembhavi, Aniruddha and Schwing, Alexander G.},
 title = {A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks},
 booktitle = {ECCV},
 year = {2020},
-note = {$^\ast$ equal contribution},
+note = {first two authors contributed equally},
 }
 ```
 
 ```bibtex
 @InProceedings{JainWeihs2019TwoBody,
-author = {Jain$^\ast$, Unnat and Weihs$^\ast$, Luca and Kolve, Eric and Rastegari, Mohammad and Lazebnik, Svetlana and Farhadi, Ali and Schwing, Alexander G. and Kembhavi, Aniruddha},
+author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Rastegari, Mohammad and Lazebnik, Svetlana and Farhadi, Ali and Schwing, Alexander G. and Kembhavi, Aniruddha},
 title = {Two Body Problem: Collaborative Visual Task Completion},
 booktitle = {CVPR},
 year = {2019},
-note = {$^\ast$ equal contribution},
+note = {first two authors contributed equally},
 }
 ```
