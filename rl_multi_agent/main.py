@@ -102,6 +102,13 @@ if __name__ == "__main__":
         torch.cuda.manual_seed(args.seed)
     mp = mp.get_context("spawn")
 
+    if any(gpu_id >= 0 for gpu_id in args.gpu_ids):
+        assert torch.cuda.is_available(), (
+            f"You have specified gpu_ids=={args.gpu_ids} but no GPUs are available."
+            " Please check that your machine has GPUs installed and that the correct (GPU compatible)"
+            " version of torch has been installed."
+        )
+
     shared_model: nn.Module = experiment.create_model()
 
     optimizer_state = None

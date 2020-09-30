@@ -98,7 +98,13 @@ export PYTHONPATH=$PYTHONPATH:$PWD
 python rl_multi_agent/scripts/download_evaluation_data.py
 ```
 
-If you would prefer to download these files manually, or are interested in what is being downloaded, 
+You may then need to make the downloaded AI2-THOR builds executable:
+
+```bash
+chmod -R +x ai2thor_builds
+```
+
+If you would prefer to download all files manually, or are interested in what is being downloaded, 
 please see the following three sections.
 
 #### Downloading our AI2-THOR build
@@ -109,6 +115,12 @@ To run our FurnLift and FurnMove experiments, you must download our custom AI2-T
 can find this build (for MacOSX and Linux) at [this link](https://drive.google.com/file/d/1zRbOYb-K07R7Bb1vMBGWdPGqXYY-adMY/view?usp=sharing). Please unzip this directory into
 the top-level directory of this project (the path `cordial-sync/ai2thor_builds` should contain
 2 files and a directory).
+
+After downloading, you may then need to make the downloaded AI2-THOR builds executable:
+
+```bash
+chmod -R +x ai2thor_builds
+```
 
 #### Downloading model checkpoints
 
